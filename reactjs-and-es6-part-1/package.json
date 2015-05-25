@@ -1,0 +1,26 @@
+{
+  "name": "reactjs-and-es6-part-1",
+  "version": "1.0.0",
+  "description": "ReactJS and ES6 Part1 - introduction. Blog post - http://egorsmirnov.me/2015/05/22/writing-reactjs-components-with-es6-part1.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ReactJs",
+    "ES6",
+    "Babel",
+    "Gulp"
+  ],
+  "author": "Egor Smirnov (http://egorsmirnov.me/)",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^6.1.1",
+    "browserify": "^10.2.1",
+    "gulp": "^3.8.11",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
