@@ -2,14 +2,31 @@ import React from 'react';
 
 export default class CartItem extends React.Component {
 
+    static propTypes = {
+        item: React.PropTypes.shape({
+            title: React.PropTypes.string.isRequired,
+            price: React.PropTypes.number.isRequired,
+            initialQty: React.PropTypes.number
+        })
+    };
+    
+    static defaultProps = {
+        item: {
+            title: 'Undefined Product',
+            price: 100,
+            initialQty: 0
+        }
+    };
+
+    state = {
+        title: this.props.item.title,
+        image: this.props.item.image,
+        qty: this.props.item.initialQty,
+        price: this.props.item.price
+    };
+    
     constructor(props) {
         super(props);
-        this.state = {
-            title: props.item.title,
-            image: props.item.image,
-            qty: props.item.initialQty,
-            price: props.item.price
-        };
     }
 
     componentWillMount() {

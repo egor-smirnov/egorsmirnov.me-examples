@@ -5,7 +5,7 @@ var source = require('vinyl-source-stream');
 
 gulp.task('build', function () {
     return browserify({entries: './app.jsx', extensions: ['.jsx'], debug: true})
-        .transform(babelify)
+        .transform(babelify.configure({stage: 0}))
         .bundle()
         .pipe(source('bundle.js'))
         .pipe(gulp.dest('dist'));
