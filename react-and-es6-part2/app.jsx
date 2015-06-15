@@ -1,8 +1,14 @@
 import React from 'react';
-import HelloWorld from './hello-world';
-//import HelloWorld from './hello-world-es5';
+import CartItem from './cartItem';
+
+const order = {
+    title: 'Fresh fruits package',
+    image: 'http://images.all-free-download.com/images/graphiclarge/citrus_fruit_184416.jpg',
+    initialQty: 3,
+    price: 8
+};
 
 React.render(
-    <HelloWorld phrase="ES6"/>,
-    document.body
+    <CartItem item={order}/>,
+    document.querySelector('.root')
 );
