@@ -9,6 +9,6 @@ const order = {
 };
 
 React.render(
-    <CartItem item={order}/>,
+    <CartItem title={order.title} image={order.image} initialQty={order.initialQty} price={order.price}/>,
     document.querySelector('.root')
 );
