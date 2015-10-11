@@ -1,7 +1,7 @@
 {
   "name": "reactjs-and-es6-part-1",
   "version": "1.0.0",
-  "description": "React and ES6 - Part 2, React Classes and ES7 Property Initializers. Blog post - http://egorsmirnov.me/2015/06/14/react-and-es6-part2.html",
+  "description": "React and ES6 - Part 3, Binding to methods of React class (ES7 included). Blog post - http://egorsmirnov.me/2015/08/16/react-and-es6-part3.html",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
