@@ -1,0 +1,33 @@
+{
+  "name": "reactjs-and-es6-part-5",
+  "version": "1.0.0",
+  "description": "React and ES6 - Part 5",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "jspm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ReactJs",
+    "ES6",
+    "Babel",
+    "Gulp"
+  ],
+  "author": "Egor Smirnov (http://egorsmirnov.me/)",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.12"
+  },
+  "jspm": {
+    "dependencies": {
+      "jsx": "npm:jspm-loader-jsx@^0.0.7",
+      "react": "npm:react@^0.14.0",
+      "react-dom": "npm:react-dom@^0.14.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
