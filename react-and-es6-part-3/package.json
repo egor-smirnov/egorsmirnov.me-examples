@@ -15,12 +15,12 @@
   "author": "Egor Smirnov (http://egorsmirnov.me/)",
   "license": "ISC",
   "devDependencies": {
-    "babelify": "^6.1.1",
+    "babelify": "6.1.1",
     "browserify": "^10.2.1",
     "gulp": "^3.8.11",
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "react": "^0.13.3"
+    "react": "0.13.3"
   }
 }

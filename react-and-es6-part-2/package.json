@@ -1,7 +1,7 @@
 {
   "name": "reactjs-and-es6-part-1",
   "version": "1.0.0",
-  "description": "React and ES6 - Part 2, React Classes and ES7 Property Initializers. Blog post - http://egorsmirnov.me/2015/06/14/react-and-es6-part2.html",
+  "description": "ReactJS and ES6 Part 2. Blog post - http://egorsmirnov.me/2015/06/14/react-and-es6-part2.html",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,12 +15,12 @@
   "author": "Egor Smirnov (http://egorsmirnov.me/)",
   "license": "ISC",
   "devDependencies": {
-    "babelify": "^6.1.1",
+    "babelify": "6.1.1",
     "browserify": "^10.2.1",
     "gulp": "^3.8.11",
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "react": "^0.13.3"
+    "react": "0.13.3"
   }
 }
