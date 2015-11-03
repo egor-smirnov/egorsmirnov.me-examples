@@ -1,0 +1,29 @@
+{
+  "name": "babel-5-to-6-babelify",
+  "version": "1.0.0",
+  "description": "Babel 6 and Babelify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ES6",
+    "Babel",
+    "Babel 6",
+    "Gulp"
+  ],
+  "author": "Egor Smirnov (http://egorsmirnov.me/)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  }
+}
