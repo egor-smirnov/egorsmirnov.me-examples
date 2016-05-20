@@ -1,8 +1,9 @@
-import React from 'react';
 import HelloWorld from './hello-world';
 //import HelloWorld from './hello-world-es5';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-React.render(
+ReactDOM.render(
     <HelloWorld phrase="ES6"/>,
-    document.body
+    document.querySelector('.root')
 );
