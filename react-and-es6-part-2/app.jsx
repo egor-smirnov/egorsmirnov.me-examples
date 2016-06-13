@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import CartItem from './cartItem';
 
 const order = {
@@ -8,7 +9,7 @@ const order = {
     price: 8
 };
 
-React.render(
+ReactDOM.render(
     <CartItem title={order.title} image={order.image} initialQty={order.initialQty} price={order.price}/>,
     document.querySelector('.root')
 );

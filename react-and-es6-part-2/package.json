@@ -1,5 +1,5 @@
 {
-  "name": "reactjs-and-es6-part-1",
+  "name": "reactjs-and-es6-part-2",
   "version": "1.0.0",
   "description": "ReactJS and ES6 Part 2. Blog post - http://egorsmirnov.me/2015/06/14/react-and-es6-part2.html",
   "main": "index.js",
@@ -15,12 +15,16 @@
   "author": "Egor Smirnov (http://egorsmirnov.me/)",
   "license": "ISC",
   "devDependencies": {
-    "babelify": "6.1.1",
-    "browserify": "^10.2.1",
-    "gulp": "^3.8.11",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.5.0",
+    "babel-preset-stage-0": "6.5.0",
+    "babelify": "7.3.0",
+    "browserify": "13.0.1",
+    "gulp": "3.9.1",
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "react": "0.13.3"
+    "react": "15.1.0",
+    "react-dom": "15.1.0"
   }
 }
