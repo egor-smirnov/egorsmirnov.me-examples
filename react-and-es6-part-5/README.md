@@ -5,6 +5,6 @@ Link to blog post - [React and ES6 - Part 5, React and ES6 Workflow with JSPM](h
 
 ## How to install
 
+* Run `npm install -g jspm@0.16.12`
 * Run `npm install`
-* Run `gulp`
 * Open index.html in your browser

@@ -16,13 +16,13 @@
   "author": "Egor Smirnov (http://egorsmirnov.me/)",
   "license": "ISC",
   "devDependencies": {
-    "jspm": "^0.16.12"
+    "jspm": "0.16.12"
   },
   "jspm": {
     "dependencies": {
       "jsx": "npm:jspm-loader-jsx@^0.0.7",
-      "react": "npm:react@^0.14.0",
-      "react-dom": "npm:react-dom@^0.14.0"
+      "react": "npm:react@^15.1.0",
+      "react-dom": "npm:react-dom@^15.1.0"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
