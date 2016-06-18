@@ -1,6 +1,6 @@
 import React from 'react';
 
-export var IntervalEnhance = ComposedComponent => class extends React.Component {
+export var IntervalEnhance = ComposedComponent => class extends ComposedComponent {
 
     static displayName = 'ComponentEnhancedWithIntervalHOC';
 
